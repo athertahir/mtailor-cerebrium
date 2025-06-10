@@ -22,7 +22,7 @@ jobs:
 
     - name: Test docker container
       run: |
-        docker run -d -p 8192:8192 --name app mlops-test-image
+        docker run -d -p 8192:8192 --name app mtailor-model
         sleep 10
         curl --fail http://localhost:8192/health
 
