@@ -1,0 +1,5 @@
+onnx
+onnxruntime
+fastapi[standard]
+python-multipart
+requests
