@@ -3,3 +3,5 @@ onnxruntime
 fastapi[standard]
 python-multipart
 requests
+Pillow
+pytest
